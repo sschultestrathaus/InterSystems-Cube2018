@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Cube.xcodeproj">
+      location = "self:/Users/strathaus/GitHub/InterSystems-Cube2018/Cube2018.xcodeproj">
    </FileRef>
 </Workspace>

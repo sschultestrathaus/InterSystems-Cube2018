@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,7 +15,7 @@
 		BF1FE3E2151AC2B400873642 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF1FE3DE151AC2B400873642 /* MainMenu.xib */; };
 		BF207B13151AF7F900DD0602 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF207B12151AF7F900DD0602 /* Foundation.framework */; };
 		BF207B16151AF7F900DD0602 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF207B15151AF7F900DD0602 /* main.m */; };
-		BF207B38151AFB1B00DD0602 /* com.InterSystems.CubeHelper in CopyFiles */ = {isa = PBXBuildFile; fileRef = BF207B10151AF7F900DD0602 /* com.InterSystems.CubeHelper */; };
+		BF207B38151AFB1B00DD0602 /* com.InterSystems.Cube2018Helper in CopyFiles */ = {isa = PBXBuildFile; fileRef = BF207B10151AF7F900DD0602 /* com.InterSystems.Cube2018Helper */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		BF3C5994150619EA003DC7F4 /* InterSystemsInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3C5993150619EA003DC7F4 /* InterSystemsInstance.m */; };
 		BF3C599715061AB2003DC7F4 /* CControl.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3C599615061AB2003DC7F4 /* CControl.m */; };
 		BF3C7280151B5862006581EA /* CubeHelper.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = BF207B19151AF7F900DD0602 /* CubeHelper.1 */; };
@@ -57,15 +57,15 @@
 			dstPath = Contents/Library/LaunchServices;
 			dstSubfolderSpec = 1;
 			files = (
-				BF207B38151AFB1B00DD0602 /* com.InterSystems.CubeHelper in CopyFiles */,
+				BF207B38151AFB1B00DD0602 /* com.InterSystems.Cube2018Helper in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		BF1FE3CC151AC28500873642 /* Cube-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Cube-Info.plist"; path = "cube/Cube-Info.plist"; sourceTree = "<group>"; };
-		BF1FE3CD151AC28500873642 /* Cube-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Cube-Prefix.pch"; path = "cube/Cube-Prefix.pch"; sourceTree = "<group>"; };
+		BF1FE3CC151AC28500873642 /* Cube2018-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Cube2018-Info.plist"; path = "cube/Cube2018-Info.plist"; sourceTree = "<group>"; };
+		BF1FE3CD151AC28500873642 /* Cube2018-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Cube2018-Prefix.pch"; path = "cube/Cube2018-Prefix.pch"; sourceTree = "<group>"; };
 		BF1FE3CF151AC28500873642 /* InterSystems_menubar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = InterSystems_menubar.xcdatamodel; sourceTree = "<group>"; };
 		BF1FE3D0151AC28500873642 /* cubeAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cubeAppDelegate.h; path = cube/cubeAppDelegate.h; sourceTree = "<group>"; };
 		BF1FE3D1151AC28500873642 /* cubeAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = cubeAppDelegate.m; path = cube/cubeAppDelegate.m; sourceTree = "<group>"; };
@@ -73,10 +73,10 @@
 		BF1FE3DB151AC2B400873642 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = cube/en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		BF1FE3DD151AC2B400873642 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = cube/en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BF1FE3DF151AC2B400873642 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = cube/en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		BF207B10151AF7F900DD0602 /* com.InterSystems.CubeHelper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = com.InterSystems.CubeHelper; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF207B10151AF7F900DD0602 /* com.InterSystems.Cube2018Helper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = com.InterSystems.Cube2018Helper; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF207B12151AF7F900DD0602 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BF207B15151AF7F900DD0602 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BF207B18151AF7F900DD0602 /* CubeHelper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CubeHelper-Prefix.pch"; sourceTree = "<group>"; };
+		BF207B18151AF7F900DD0602 /* Cube2018Helper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cube2018Helper-Prefix.pch"; sourceTree = "<group>"; };
 		BF207B19151AF7F900DD0602 /* CubeHelper.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CubeHelper.1; sourceTree = "<group>"; };
 		BF207B27151AF85C00DD0602 /* CubeHelper-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CubeHelper-Info.plist"; sourceTree = "<group>"; };
 		BF207B29151AF86C00DD0602 /* CubeHelper-Launchd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CubeHelper-Launchd.plist"; sourceTree = "<group>"; };
@@ -93,7 +93,7 @@
 		BF511CBD1523B479004080E2 /* cube_blue.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = cube_blue.ico; sourceTree = "<group>"; };
 		BFA8C76F1534ED5600155DAC /* dashboard.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = dashboard.ico; sourceTree = "<group>"; };
 		BFA8C7701534ED5600155DAC /* terminal.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = terminal.ico; sourceTree = "<group>"; };
-		BFF889421505E53C007B4A9B /* Cube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cube.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFF889421505E53C007B4A9B /* Cube2018.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cube2018.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFF889461505E53C007B4A9B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		BFF889491505E53C007B4A9B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		BFF8894A1505E53C007B4A9B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -139,8 +139,8 @@
 			children = (
 				BF1FE3DA151AC2B400873642 /* Credits.rtf */,
 				BF1FE3DC151AC2B400873642 /* InfoPlist.strings */,
-				BF1FE3CC151AC28500873642 /* Cube-Info.plist */,
-				BF1FE3CD151AC28500873642 /* Cube-Prefix.pch */,
+				BF1FE3CC151AC28500873642 /* Cube2018-Info.plist */,
+				BF1FE3CD151AC28500873642 /* Cube2018-Prefix.pch */,
 				BF1FE3D3151AC28500873642 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -163,7 +163,7 @@
 			children = (
 				BF207B27151AF85C00DD0602 /* CubeHelper-Info.plist */,
 				BF207B29151AF86C00DD0602 /* CubeHelper-Launchd.plist */,
-				BF207B18151AF7F900DD0602 /* CubeHelper-Prefix.pch */,
+				BF207B18151AF7F900DD0602 /* Cube2018Helper-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -183,8 +183,8 @@
 		BFF889431505E53C007B4A9B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BFF889421505E53C007B4A9B /* Cube.app */,
-				BF207B10151AF7F900DD0602 /* com.InterSystems.CubeHelper */,
+				BFF889421505E53C007B4A9B /* Cube2018.app */,
+				BF207B10151AF7F900DD0602 /* com.InterSystems.Cube2018Helper */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -237,9 +237,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BF207B0F151AF7F900DD0602 /* com.InterSystems.CubeHelper */ = {
+		BF207B0F151AF7F900DD0602 /* com.InterSystems.Cube2018Helper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BF207B1A151AF7F900DD0602 /* Build configuration list for PBXNativeTarget "com.InterSystems.CubeHelper" */;
+			buildConfigurationList = BF207B1A151AF7F900DD0602 /* Build configuration list for PBXNativeTarget "com.InterSystems.Cube2018Helper" */;
 			buildPhases = (
 				BF207B0C151AF7F900DD0602 /* Sources */,
 				BF207B0D151AF7F900DD0602 /* Frameworks */,
@@ -249,14 +249,14 @@
 			);
 			dependencies = (
 			);
-			name = com.InterSystems.CubeHelper;
+			name = com.InterSystems.Cube2018Helper;
 			productName = CubeHelper;
-			productReference = BF207B10151AF7F900DD0602 /* com.InterSystems.CubeHelper */;
+			productReference = BF207B10151AF7F900DD0602 /* com.InterSystems.Cube2018Helper */;
 			productType = "com.apple.product-type.tool";
 		};
-		BFF889411505E53C007B4A9B /* Cube */ = {
+		BFF889411505E53C007B4A9B /* Cube2018 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BFF889631505E53C007B4A9B /* Build configuration list for PBXNativeTarget "Cube" */;
+			buildConfigurationList = BFF889631505E53C007B4A9B /* Build configuration list for PBXNativeTarget "Cube2018" */;
 			buildPhases = (
 				BFF8893E1505E53C007B4A9B /* Sources */,
 				BFF8893F1505E53C007B4A9B /* Frameworks */,
@@ -268,9 +268,9 @@
 			dependencies = (
 				BF207B36151AFADF00DD0602 /* PBXTargetDependency */,
 			);
-			name = Cube;
+			name = Cube2018;
 			productName = "InterSystems-menubar";
-			productReference = BFF889421505E53C007B4A9B /* Cube.app */;
+			productReference = BFF889421505E53C007B4A9B /* Cube2018.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -279,10 +279,11 @@
 		BFF889391505E53C007B4A9B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				ORGANIZATIONNAME = "David Tong";
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Stefan Schulte Strathaus";
 			};
-			buildConfigurationList = BFF8893C1505E53C007B4A9B /* Build configuration list for PBXProject "Cube" */;
-			compatibilityVersion = "Xcode 3.2";
+			buildConfigurationList = BFF8893C1505E53C007B4A9B /* Build configuration list for PBXProject "Cube2018" */;
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -293,8 +294,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BFF889411505E53C007B4A9B /* Cube */,
-				BF207B0F151AF7F900DD0602 /* com.InterSystems.CubeHelper */,
+				BFF889411505E53C007B4A9B /* Cube2018 */,
+				BF207B0F151AF7F900DD0602 /* com.InterSystems.Cube2018Helper */,
 			);
 		};
 /* End PBXProject section */
@@ -344,7 +345,7 @@
 /* Begin PBXTargetDependency section */
 		BF207B36151AFADF00DD0602 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BF207B0F151AF7F900DD0602 /* com.InterSystems.CubeHelper */;
+			target = BF207B0F151AF7F900DD0602 /* com.InterSystems.Cube2018Helper */;
 			targetProxy = BF207B35151AFADF00DD0602 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -381,12 +382,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "Developer ID Application: David Tong";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = NGSB5R66UA;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CubeHelper/CubeHelper-Prefix.pch";
+				GCC_PREFIX_HEADER = "CubeHelper/Cube2018Helper-Prefix.pch";
 				OTHER_LDFLAGS = (
 					"-sectcreate",
 					__TEXT,
@@ -405,12 +408,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "Developer ID Application: David Tong";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = NGSB5R66UA;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CubeHelper/CubeHelper-Prefix.pch";
+				GCC_PREFIX_HEADER = "CubeHelper/Cube2018Helper-Prefix.pch";
 				OTHER_LDFLAGS = (
 					"-sectcreate",
 					__TEXT,
@@ -428,17 +433,39 @@
 		BFF889611505E53C007B4A9B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
-				CODE_SIGN_IDENTITY = "Developer ID Application: David Tong";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer: Stefan Schulte Strathaus (77C7R93NBP)";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
@@ -447,14 +474,35 @@
 		BFF889621505E53C007B4A9B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
-				CODE_SIGN_IDENTITY = "Developer ID Application: David Tong";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer: Stefan Schulte Strathaus (77C7R93NBP)";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -463,14 +511,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "Developer ID Application: David Tong";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = NGSB5R66UA;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "cube/Cube-Prefix.pch";
-				INFOPLIST_FILE = "cube/Cube-Info.plist";
-				PRODUCT_NAME = Cube;
+				GCC_PREFIX_HEADER = "cube/Cube2018-Prefix.pch";
+				INFOPLIST_FILE = "cube/Cube2018-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.InterSystems.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Cube2018;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -479,14 +530,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "Developer ID Application: David Tong";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = NGSB5R66UA;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "cube/Cube-Prefix.pch";
-				INFOPLIST_FILE = "cube/Cube-Info.plist";
-				PRODUCT_NAME = Cube;
+				GCC_PREFIX_HEADER = "cube/Cube2018-Prefix.pch";
+				INFOPLIST_FILE = "cube/Cube2018-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.InterSystems.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Cube2018;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -494,7 +548,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BF207B1A151AF7F900DD0602 /* Build configuration list for PBXNativeTarget "com.InterSystems.CubeHelper" */ = {
+		BF207B1A151AF7F900DD0602 /* Build configuration list for PBXNativeTarget "com.InterSystems.Cube2018Helper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF207B1B151AF7F900DD0602 /* Debug */,
@@ -503,7 +557,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BFF8893C1505E53C007B4A9B /* Build configuration list for PBXProject "Cube" */ = {
+		BFF8893C1505E53C007B4A9B /* Build configuration list for PBXProject "Cube2018" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BFF889611505E53C007B4A9B /* Debug */,
@@ -512,7 +566,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BFF889631505E53C007B4A9B /* Build configuration list for PBXNativeTarget "Cube" */ = {
+		BFF889631505E53C007B4A9B /* Build configuration list for PBXNativeTarget "Cube2018" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BFF889641505E53C007B4A9B /* Debug */,
